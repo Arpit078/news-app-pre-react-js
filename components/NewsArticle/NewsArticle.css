@@ -1,0 +1,20 @@
+.image {
+    max-width: 25rem;
+}
+
+.news-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-articles a {
+    display: inline-block; /* Ensures the link only takes up as much width as needed */
+    padding: 0.5rem;       /* Optional: Adds some padding around the link */
+    text-decoration: none; /* Optional: Removes underline from the link */
+    color: #000000;        /* Optional: Adds color to the link */
+    border-radius: 4px;    /* Optional: Rounds the corners */
+}
+
+.news-articles a:hover {
+    background-color: #1e1a707e; /* Optional: Adds a background on hover */
+}
